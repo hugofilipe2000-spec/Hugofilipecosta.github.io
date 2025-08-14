@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hugo Costa — Links</title>
+<meta name="description" content="Offshore energy engineer. Links to LinkedIn, CV and Resume.">
+<style>
+  :root{--bg:#0f1115;--card:#161a22;--fg:#e8ecf1;--muted:#a7b0bd;}
+  *{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial}
+  body{margin:0;background:linear-gradient(180deg,#0b0d12,#121621);}
+  .wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+  .card{width:100%;max-width:560px;background:var(--card);border:1px solid #232a37;border-radius:16px;padding:28px 24px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  .head{display:flex;gap:16px;align-items:center;margin-bottom:16px}
+  .avatar{width:60px;height:60px;border-radius:50%;background:#2a3446}
+  h1{color:var(--fg);font-size:1.35rem;margin:0}
+  p{color:var(--muted);margin:.4rem 0 0}
+  .btns{display:grid;gap:12px;margin:22px 0}
+  a.btn{display:block;text-decoration:none;text-align:center;padding:14px 16px;border-radius:10px;border:1px solid #2a3446;color:var(--fg);background:#1b2130;font-weight:600}
+  a.btn:hover{transform:translateY(-1px)}
+  .foot{margin-top:10px;color:#7f8aa3;font-size:.9rem;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap"><div class="card">
+  <div class="head">
+    <div class="avatar"></div>
+    <div>
+      <h1>Hugo Costa</h1>
+      <p>Offshore Energy • Mechanical/Automation • Asset Health</p>
+    </div>
+  </div>
+
+  <div class="btns">
+    <!-- Replace the LinkedIn URL and filenames below -->
+    <a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">View LinkedIn</a>
+    <a class="btn" href="./CV_HugoCosta.pdf" target="_blank" rel="noopener">View Full CV (PDF)</a>
+    <a class="btn" href="./Resume_HugoCosta.pdf" target="_blank" rel="noopener" download>Download Resume (PDF)</a>
+  </div>
+
+  <div class="foot">© Hugo Costa</div>
+</div></div>
+</body>
+</html>
